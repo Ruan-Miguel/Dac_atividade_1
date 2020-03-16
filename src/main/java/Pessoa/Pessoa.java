@@ -52,4 +52,12 @@ public class Pessoa {
     public String toString() {
         return "id:" + id + ", nome:" + nome + ", salario:" + salario + ", dataNascimento:" + dataNascimento;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Pessoa && id == ((Pessoa) obj).getId() && nome.equals(((Pessoa) obj).getNome()) && salario == ((Pessoa) obj).getSalario() && dataNascimento.equals(((Pessoa) obj).dataNascimento)) {
+            return true;
+        }
+        return false;
+    }
 }

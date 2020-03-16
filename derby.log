@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Mon Mar 16 13:26:58 BRT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0170-e42b-75a9-0000034b46b8 
+Mon Mar 16 17:44:52 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0170-e517-90d4-0000032baf98 
 on database directory C:\Users\Ruan\IdeaProjects\DAC_atividade_1\derby\Dac_atividade_1 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@8bcc55f 
 Loaded from file:/C:/Users/Ruan/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.15.2.0/b64da6681994f33ba5783ffae55cdb44885b9e70/derby-10.15.2.0.jar
 java.vendor=JetBrains s.r.o
