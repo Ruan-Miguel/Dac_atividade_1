@@ -1,8 +1,7 @@
 package Pessoa;
 
+import java.io.*;
 import java.sql.*;
-import java.time.LocalDate;
-import java.time.ZoneId;
 import java.util.ArrayList;
 
 public class PessoaDAO {
@@ -10,7 +9,13 @@ public class PessoaDAO {
     private static String DATABASE_URL;
 
     static  {
-        DATABASE_URL = "jdbc:derby:C:\\Users\\Ruan\\IdeaProjects\\Dac_atividade_1\\derby\\Dac_atividade_1";
+        try {
+            String path = new File("derby/Dac_atividade_1").getCanonicalPath();
+            System.out.println(path);
+            DATABASE_URL = "jdbc:derby:" + path;
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
     }
 
     public static void create (Pessoa pessoa) {
