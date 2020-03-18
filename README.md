@@ -18,8 +18,8 @@ CREATE TABLE Pessoa(
  
 ## Executar o projeto
 
-![run](https://user-images.githubusercontent.com/47037657/76942218-215c1c80-68dc-11ea-83c8-bf76cd1fbe7a.png)
+![run](https://user-images.githubusercontent.com/47037657/76942980-5d43b180-68dd-11ea-8d89-7a5e60e9e3a5.png)
 
 ## Executar os testes
 
-![test](https://user-images.githubusercontent.com/47037657/76942400-7009b680-68dc-11ea-9b0a-f81a83f12db9.png)
+![test](https://user-images.githubusercontent.com/47037657/76942983-5f0d7500-68dd-11ea-9e43-7843902a0f56.png)
